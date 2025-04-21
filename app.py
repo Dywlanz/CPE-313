@@ -16,7 +16,7 @@ from PIL import Image,ImageOps
 import numpy as np
 def import_and_predict(image_data,model):
     size=(64,64)
-    image=ImageOps.fit(image_data,size,Image.ANTIALIAS)
+    image=ImageOps.fit(image_data,size,Image.LANCZOS)
     img=np.asarray(image)
     img_reshape=img[np.newaxis,...]
     prediction=model.predict(img_reshape)
