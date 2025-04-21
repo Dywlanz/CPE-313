@@ -1,15 +1,3 @@
-# For BERT sentiment analysis
+streamlit
 torch
 transformers
-requests
-beautifulsoup4
-pandas
-numpy
-
-# For Speech Recognition
-SpeechRecognition
-pyttsx3
-pydub
-
-# For Streamlit UI
-streamlit
