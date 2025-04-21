@@ -1,7 +1,15 @@
-streamlit
-numpy
-pandas
-scikit-learn
-matplotlib
+# For BERT sentiment analysis
 torch
-torchaudio
+transformers
+requests
+beautifulsoup4
+pandas
+numpy
+
+# For Speech Recognition
+SpeechRecognition
+pyttsx3
+pydub
+
+# For Streamlit UI
+streamlit
